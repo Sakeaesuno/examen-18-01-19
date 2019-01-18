@@ -1,0 +1,92 @@
+@charset "utf-8";
+/*Maria Rocafull Garcia 18/01/2019*/
+body{
+    background-color: #F6ED9F;
+}
+header{
+    background-color: #FB9931;
+    text-align: center;
+}
+h1{
+    font-style: italic;
+    text-shadow: red 6px 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+div.menu{
+    background-color: #F1E688;
+    color:orange;
+}
+div.menu pre{
+    border: red 3px solid;
+    text-align: justify;
+}
+div.naraja{
+    background: url("img/naranja2.svg");
+    background-size: 10% 10%;
+    background-repeat: repeat-x;
+    
+    font-family: sans-serif;
+}
+article.Rojo{
+    background: url("img/naranja.png") repeat-y top left, url("img/naranja.png") repeat-y top right;
+    background-size: 5% 10%;
+    background-color: #F8C437;
+    border: red 3px solid;
+    position: absolute;
+    top: 25%;
+    left:30%;
+    width: 40%; 
+    height: 20%;
+    z-index: 2;
+    color:red;
+    text-align: center;
+}
+span.subrayado{
+    text-decoration: underline;
+}
+article.Amarillo{
+    background-color: #FCF922;
+    text-align: center;
+    border: 3px solid #E0CA3B;
+    position: absolute;
+    top: 35%;
+    left:5%;
+    width: 40%; 
+    height: 20%;
+    color:#E0CA3B;
+    font-size: 20px;
+  
+}
+article.Azul{
+    background-color: #A6E6F4;
+    border: #56D7F1 3px solid;
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    width: 40%; 
+    height: 20%;
+    color:orange;
+    
+}
+article:hover{
+    z-index: 3;
+}
+div.footer{
+    position: absolute;
+    top:86%;
+    right: 0%;
+    left: 0%;
+    color: blue;
+    background-color: #FB9931;
+}
+p.l{
+    position: absolute;
+    top:100%;
+    right: 0;
+    left: 0;
+    background-color: yellow;
+    color:orange;    
+}
+
